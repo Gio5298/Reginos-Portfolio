@@ -1,14 +1,13 @@
 import React from 'react';
-import './App.css';
-import HomePage from './components/homePage';
+import NavBar from './navBar';
 import { Route, BrowserRouter as Router } from 'react-router-dom';
 
-function App() {
+function HomePage() {
   return (
     <Router>
-      <HomePage />
+      <NavBar />
     </Router>
   );
 }
 
-export default App;
+export default HomePage;
