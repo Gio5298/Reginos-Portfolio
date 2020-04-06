@@ -6,14 +6,11 @@ import styled from 'styled-components';
 import MainCont from './mainCont';
 import NavBar from './navBar';
 
-//image imports
-// import AzNationalParkNight from './imgs/AzNationalParkNight.jpg'
-
 function HomePage() {
   return (
     <Router>
       <NavBar />
-      {/* <MainCont/> */}
+      <MainCont/>
     </Router>
   );
 }

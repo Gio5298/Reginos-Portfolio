@@ -8,27 +8,31 @@ justify-content: space-evenly;
 height: 6rem;
 `
 
-const DivAnchor = styled.a`
+const NavAnchor = styled.a`
 margin-top: 1.5rem;
-font-size: 1.5rem;
+font-size: 1.9rem;
 font-weight: 500;
 color: white;
+text-decoration: none;
+`
+
+const NavAnchorImg = styled.a`
+
 `
 
 const DivImg = styled.img`
-border: 1px solid blue;
 height: 6rem;
-width: 9rem;
+width: 6rem;
 `
 
 function NavBar() {
   return ( 
     <MainDiv>
-      <DivAnchor>Portfolio </DivAnchor>
-      <DivAnchor>About Me </DivAnchor>
-      <DivImg src={portLogo}/>
-      <DivAnchor>Resume </DivAnchor>
-      <DivAnchor>Contact </DivAnchor>
+      <NavAnchor href="projects">Projects </NavAnchor>
+      <NavAnchor href="#aboutMe">About Me </NavAnchor>
+      <NavAnchorImg href="#home"><DivImg src={portLogo}/></NavAnchorImg>
+      <NavAnchor href="#resume">Resume </NavAnchor>
+      <NavAnchor href="#contact">Contact </NavAnchor>
     </MainDiv>
   )
 }
