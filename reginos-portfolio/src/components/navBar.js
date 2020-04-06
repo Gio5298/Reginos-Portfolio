@@ -28,8 +28,8 @@ width: 6rem;
 function NavBar() {
   return ( 
     <MainDiv>
-      <NavAnchor href="projects">Projects </NavAnchor>
       <NavAnchor href="#aboutMe">About Me </NavAnchor>
+      <NavAnchor href="projects">Projects </NavAnchor>
       <NavAnchorImg href="#home"><DivImg src={portLogo}/></NavAnchorImg>
       <NavAnchor href="#resume">Resume </NavAnchor>
       <NavAnchor href="#contact">Contact </NavAnchor>
