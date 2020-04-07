@@ -1,14 +1,14 @@
 import React from 'react';
 import Styled from 'styled-components';
 
-//image imports
-import CitricsImg from './imgs/citricsImg.png'
+//comp imports
+import AboutMe from './aboutMe';
+import Projects from './projects';
 
 const MainDiv = Styled.div`
 display: flex;
 flex-direction: column;
 margin-top: 8rem;
-border: 1px dashed pink;
 `
 
 const TopCont = Styled.div`
@@ -17,7 +17,6 @@ flex-direction: column;
 justify-content: center;
 margin: 0 auto;
 margin-bottom: 5rem;
-border: 1px dashed blue;
 `
 
 const NameHeader = Styled.h1`
@@ -43,6 +42,8 @@ function MainCont() {
         <NameHeader>Regino A. Parragil</NameHeader>
         <NamePara>Full Stack Web Developer</NamePara>
       </TopCont>
+      <AboutMe />
+      <Projects />
     </MainDiv>
   )
 }

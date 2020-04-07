@@ -1,8 +1,10 @@
 import React from 'react';
 import styled from 'styled-components';
+
+//image imports
 import portLogo from './imgs/portLogo.png';
 
-const MainDiv = styled.div`
+const NavDiv = styled.div`
 display: flex;
 justify-content: space-evenly;
 height: 6rem;
@@ -27,13 +29,13 @@ width: 6rem;
 
 function NavBar() {
   return ( 
-    <MainDiv>
+    <NavDiv id="navBar">
       <NavAnchor href="#aboutMe">About Me </NavAnchor>
       <NavAnchor href="projects">Projects </NavAnchor>
       <NavAnchorImg href="#home"><DivImg src={portLogo}/></NavAnchorImg>
       <NavAnchor href="#resume">Resume </NavAnchor>
       <NavAnchor href="#contact">Contact </NavAnchor>
-    </MainDiv>
+    </NavDiv>
   )
 }
 
