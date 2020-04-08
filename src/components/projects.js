@@ -8,14 +8,14 @@ const ProjDiv = Styled.div`
 display: flex;
 flex-direction: column;
 justify-content: center;
-width: 75%;
-margin: 0 auto;
+// width: 80%;
+margin: 0 75px 0 100px;
 margin-bottom: 15rem;
 `
 
 const ProjImg = Styled.img`
-width: 80rem;
-height: 30rem;
+width: 750px;
+height: 400px;
 border-radius: 10px;
 `
 
