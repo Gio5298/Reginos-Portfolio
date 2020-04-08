@@ -4,6 +4,7 @@ import Styled from 'styled-components';
 //comp imports
 import AboutMe from './aboutMe';
 import Projects from './projects';
+import Contact from './contact';
 
 const MainDiv = Styled.div`
 display: flex;
@@ -44,6 +45,7 @@ function MainCont() {
       </TopCont>
       <AboutMe />
       <Projects />
+      <Contact />
     </MainDiv>
   )
 }

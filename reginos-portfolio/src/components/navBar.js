@@ -31,9 +31,9 @@ function NavBar() {
   return ( 
     <NavDiv id="navBar">
       <NavAnchor href="#aboutMe">About Me </NavAnchor>
-      <NavAnchor href="projects">Projects </NavAnchor>
+      <NavAnchor href="#projects">Projects </NavAnchor>
       <NavAnchorImg href="#home"><DivImg src={portLogo}/></NavAnchorImg>
-      <NavAnchor href="#resume">Resume </NavAnchor>
+      <NavAnchor href="https://docs.google.com/document/d/1mnzzeTqtk8ApjNx6LiiErkkErG11ojR1SSqePeUWQ68/edit?usp=sharing" target="_blank">Resume </NavAnchor>
       <NavAnchor href="#contact">Contact </NavAnchor>
     </NavDiv>
   )

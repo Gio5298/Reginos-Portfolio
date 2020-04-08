@@ -7,11 +7,12 @@ import selfImage from './imgs/selfImage.jpg'
 const AboutDiv = Styled.div`
 display: flex;
 justify-content: center;
-margin: 15rem auto;
+margin: 15rem auto 30rem auto;
 `
 
 const AboutImg = Styled.img`
 width: 25rem;
+height: 25rem;
 border-radius: 300px;
 margin-left: 50px;
 `

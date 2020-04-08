@@ -10,7 +10,7 @@ flex-direction: column;
 justify-content: center;
 width: 75%;
 margin: 0 auto;
-margin-bottom: 30rem;
+margin-bottom: 15rem;
 `
 
 const ProjImg = Styled.img`
@@ -47,7 +47,7 @@ font-size: 1.6rem;
 
 function Projects() {
   return (
-    <ProjDiv>
+    <ProjDiv id="projects">
       <ProjTop>
         <ProjCont>
           <ProjHeader>Projects</ProjHeader>
