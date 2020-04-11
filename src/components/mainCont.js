@@ -10,6 +10,10 @@ const MainDiv = Styled.div`
 display: flex;
 flex-direction: column;
 margin-top: 8rem;
+
+@media (max-width: 500px) {
+  margin-top: .8rem;
+} 
 `
 
 const TopCont = Styled.div`
@@ -28,12 +32,22 @@ font-size: 5rem;
 color: snow;
 width: 60rem;
 text-align: center;
+
+@media (max-width: 500px) {
+  padding: .1rem;
+  font-size: 1rem;
+  width: 15rem;
+} 
 `
 
 const NamePara = Styled.p`
 color: snow;
 font-size: 2rem;
 text-align: center;
+
+@media (max-width: 500px) {
+  font-size: .9rem;
+} 
 `
 
 function MainCont() {

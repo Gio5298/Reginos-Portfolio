@@ -8,6 +8,10 @@ const AboutDiv = Styled.div`
 display: flex;
 justify-content: center;
 margin: 15rem auto 30rem auto;
+
+@media (max-width: 500px) {
+  flex-direction: column;
+}
 `
 
 const AboutImg = Styled.img`
@@ -15,6 +19,11 @@ width: 25rem;
 height: 25rem;
 border-radius: 300px;
 margin-left: 50px;
+
+@media (max-width: 500px) {
+  width: 8rem;
+  height: 8rem;
+}
 `
 
 const AboutCont = Styled.div`

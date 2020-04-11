@@ -8,15 +8,23 @@ const ProjDiv = Styled.div`
 display: flex;
 flex-direction: column;
 justify-content: center;
-// width: 80%;
 margin: 0 75px 0 100px;
 margin-bottom: 15rem;
+
+@media (max-width: 500px) {
+  flex-direction: column;
+}
 `
 
 const ProjImg = Styled.img`
 width: 750px;
 height: 400px;
 border-radius: 10px;
+
+@media (max-width: 500px) {
+  width: ;
+  height: 2rem;
+}
 `
 
 const ProjTop = Styled.div`
