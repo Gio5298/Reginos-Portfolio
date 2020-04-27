@@ -5,6 +5,7 @@ import Styled from 'styled-components';
 import AboutMe from './aboutMe';
 import Projects from './projects';
 import Contact from './contact';
+import Footer from './footer';
 
 const MainDiv = Styled.div`
 display: flex;
@@ -60,6 +61,7 @@ function MainCont() {
       <AboutMe />
       <Projects />
       <Contact />
+      <Footer />
     </MainDiv>
   )
 }
