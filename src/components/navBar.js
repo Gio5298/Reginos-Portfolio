@@ -8,6 +8,10 @@ const NavDiv = styled.div`
 display: flex;
 justify-content: space-evenly;
 height: 6rem;
+position: fixed;
+top: 0;
+width: 100%;
+z-index: 99999;
 `
 
 const NavAnchor = styled.a`
@@ -16,6 +20,10 @@ font-size: 1.9rem;
 font-weight: 500;
 color: white;
 text-decoration: none;
+
+@media (max-width: 500px) {
+  font-size: .9rem;
+} 
 `
 
 const NavAnchorImg = styled.a`
@@ -25,6 +33,12 @@ const NavAnchorImg = styled.a`
 const DivImg = styled.img`
 height: 6rem;
 width: 6rem;
+
+@media (max-width: 500px) {
+  height: 2rem;
+  width: 2rem;
+  padding-top: .8rem;
+}
 `
 
 function NavBar() {

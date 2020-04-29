@@ -8,6 +8,12 @@ const AboutDiv = Styled.div`
 display: flex;
 justify-content: center;
 margin: 15rem auto 30rem auto;
+
+@media (max-width: 500px) {
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+}
 `
 
 const AboutImg = Styled.img`
@@ -15,6 +21,12 @@ width: 25rem;
 height: 25rem;
 border-radius: 300px;
 margin-left: 50px;
+
+@media (max-width: 500px) {
+  width: 8rem;
+  height: 8rem;
+  margin: 0 auto;
+}
 `
 
 const AboutCont = Styled.div`
@@ -22,17 +34,31 @@ display: flex;
 flex-direction: column;
 margin: 0 100px 0 50px;
 width: 35%;
+
+@media (max-width: 500px) {
+  margin: 0 auto;
+  width: 100%;
+  text-align: center;
+} 
 `
 
 const AboutHeader = Styled.h2`
 color: snow;
 font-size: 3rem;
-margin: 1.7rem 0 0 0;
+margin: 1.7rem;
+
+@media (max-width: 500px) {
+  margin: 0 auto;
+} 
 `
 
 const AboutPara = Styled.p`
 color: snow;
 font-size: 1.6rem;
+
+@media (max-width: 500px) {
+  
+} 
 `
 
 function AboutMe() {

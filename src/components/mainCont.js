@@ -5,11 +5,17 @@ import Styled from 'styled-components';
 import AboutMe from './aboutMe';
 import Projects from './projects';
 import Contact from './contact';
+import Footer from './footer';
 
 const MainDiv = Styled.div`
 display: flex;
 flex-direction: column;
 margin-top: 8rem;
+
+@media (max-width: 500px) {
+  margin-top: .8rem;
+  // width: 75%;
+} 
 `
 
 const TopCont = Styled.div`
@@ -18,6 +24,10 @@ flex-direction: column;
 justify-content: center;
 margin: 0 auto;
 margin-bottom: 5rem;
+
+@media (max-width: 500px) {
+  margin-top: 4rem;
+} 
 `
 
 const NameHeader = Styled.h1`
@@ -28,12 +38,22 @@ font-size: 5rem;
 color: snow;
 width: 60rem;
 text-align: center;
+
+@media (max-width: 500px) {
+  padding: .1rem;
+  font-size: 1.5rem;
+  width: 15rem;
+} 
 `
 
 const NamePara = Styled.p`
 color: snow;
 font-size: 2rem;
 text-align: center;
+
+@media (max-width: 500px) {
+  font-size: 1.2rem;
+} 
 `
 
 function MainCont() {
@@ -46,6 +66,7 @@ function MainCont() {
       <AboutMe />
       <Projects />
       <Contact />
+      <Footer />
     </MainDiv>
   )
 }
