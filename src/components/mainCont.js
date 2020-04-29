@@ -14,6 +14,7 @@ margin-top: 8rem;
 
 @media (max-width: 500px) {
   margin-top: .8rem;
+  // width: 75%;
 } 
 `
 
@@ -23,6 +24,10 @@ flex-direction: column;
 justify-content: center;
 margin: 0 auto;
 margin-bottom: 5rem;
+
+@media (max-width: 500px) {
+  margin-top: 4rem;
+} 
 `
 
 const NameHeader = Styled.h1`
@@ -36,7 +41,7 @@ text-align: center;
 
 @media (max-width: 500px) {
   padding: .1rem;
-  font-size: 1rem;
+  font-size: 1.5rem;
   width: 15rem;
 } 
 `
@@ -47,7 +52,7 @@ font-size: 2rem;
 text-align: center;
 
 @media (max-width: 500px) {
-  font-size: .9rem;
+  font-size: 1.2rem;
 } 
 `
 

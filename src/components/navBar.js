@@ -12,10 +12,6 @@ position: fixed;
 top: 0;
 width: 100%;
 z-index: 99999;
-
-@media (max-width: 500px) {
-  width: 100%;
-}
 `
 
 const NavAnchor = styled.a`
@@ -26,7 +22,7 @@ color: white;
 text-decoration: none;
 
 @media (max-width: 500px) {
-  font-size: .7rem;
+  font-size: .9rem;
 } 
 `
 
@@ -41,6 +37,7 @@ width: 6rem;
 @media (max-width: 500px) {
   height: 2rem;
   width: 2rem;
+  padding-top: .8rem;
 }
 `
 
