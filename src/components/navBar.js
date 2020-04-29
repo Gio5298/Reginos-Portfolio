@@ -8,6 +8,10 @@ const NavDiv = styled.div`
 display: flex;
 justify-content: space-evenly;
 height: 6rem;
+position: fixed;
+top: 0;
+width: 100%;
+z-index: 99999;
 
 @media (max-width: 500px) {
   width: 100%;

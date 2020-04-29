@@ -2,7 +2,9 @@ import React from "react";
 import Styled from "styled-components";
 
 const FootDiv = Styled.div`
-
+margin: auto;
+margin-top: 50px;
+color: white;
 `
 
 function Footer() {
